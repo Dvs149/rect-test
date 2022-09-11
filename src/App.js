@@ -1,8 +1,5 @@
 import {
-  BrowserRouter as Router,
-  Switch,
   Route,
-  Link,
   Routes,
   BrowserRouter
 } from "react-router-dom";
@@ -17,11 +14,6 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<TextForm />}>
-            {/* <Route index element={<LinkDemo />} /> */}
-            {/* <Route path=":teamId" element={<Team />} /> */}
-            {/* <Route path="new" element={<NewTeamForm />} /> */}
-            {/* <Route index element={<LeagueStandings />} /> */}
-            {/* </Route> */}
           </Route>
           <Route path="Link" element={<LinkDemo />} />
         </Routes>
