@@ -22,6 +22,7 @@ export default function Name({ name }) {
     // <div>{name}</div>
     <div>
       <h1>{name}</h1>
+      <h2>hard coded Divyesh</h2>
       <h2 className={style.header}>the count : <span>{count}</span> </h2>
       <button onClick={handleClick}>
         Click me
