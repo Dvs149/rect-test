@@ -4,6 +4,10 @@ import { Link, NavLink } from 'react-router-dom'
 export default function Navbar() {
   return (
     <div>
+        <nav className=" flex sm:justify-end space-x-4 dark:bg-black">
+            <NavLink to="/" className="rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-slate-100 hover:text-slate-900 dark:text-white">Home</NavLink>
+            <NavLink to="/Link" className="rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-slate-100 hover:text-slate-900 dark:text-white">Link</NavLink>
+        </nav>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
           <a className="navbar-brand" href="/">Navbar</a>
